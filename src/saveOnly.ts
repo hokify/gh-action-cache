@@ -1,3 +1,5 @@
+import "./override-actions-runtime-token";
+
 import * as core from "@actions/core";
 
 import saveImpl from "./saveImpl";

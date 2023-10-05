@@ -26,6 +26,9 @@ inputs:
     description: 'Check if a cache entry exists for the given input(s) (key, restore-keys) without downloading the cache'
     default: 'false'
     required: false
+  actions-runtime-token:
+    description: 'Allows to override the ACTIONS_RUNTIME_TOKEN'
+    required: false
 outputs:
   cache-hit:
     description: 'A boolean value to indicate an exact match was found for the primary key'
